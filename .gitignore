@@ -1,0 +1,3 @@
+.DS_Store
+# Claude Code が mod を読み込むたびに自動で作る型定義（つないでいる MCP の一覧も入る）
+.claude-plugin/types/

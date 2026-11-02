@@ -1,0 +1,14 @@
+{
+  "name": "cockpit",
+  "version": "0.1.0",
+  "description": "右側のパネルに、Claude のタスク・成果物・セキュリティの状況をまとめて表示する",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "progressTool": {
+      "type": "boolean",
+      "title": "進捗報告の道具",
+      "description": "Claude が手順の多い作業で、計画と進捗を cockpit の TASKS タブに報告できる道具を渡す。オフにすると道具を渡さない（次のセッションから反映）。",
+      "default": true
+    }
+  }
+}
